@@ -1,6 +1,6 @@
 # execution-selenium
 
-Para executar alguns dos projetos você deve:
+Para executar os testes de alguns dos projetos você deve:
 - Entrar no projeto e seguir seu passo a passo para rodar a aplicação
 - Substituir o executável do chromedriver para uma versão compatível com o seu google Chrome
 - Na raíz do diretório executar o comando `mvn test`

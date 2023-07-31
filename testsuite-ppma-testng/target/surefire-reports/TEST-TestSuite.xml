@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="119.347" tests="23" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="src/main/resources/chromedriver"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/leticia/projetos/execution-selenium/testsuite-ppma-testng/target/test-classes:/home/leticia/projetos/execution-selenium/testsuite-ppma-testng/target/classes:/home/leticia/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/leticia/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/leticia/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/leticia/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/leticia/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/leticia/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/leticia/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/leticia/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/leticia/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/leticia/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/leticia/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/leticia/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/leticia/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/leticia/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/leticia/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/leticia/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/leticia/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/leticia/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/leticia/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/leticia/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/leticia/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/leticia/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/leticia/.m2/repository/mysql/mysql-connector-java/6.0.5/mysql-connector-java-6.0.5.jar:/home/leticia/.m2/repository/io/github/bonigarcia/webdrivermanager/3.0.0/webdrivermanager-3.0.0.jar:/home/leticia/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/leticia/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/leticia/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/home/leticia/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar:/home/leticia/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/home/leticia/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/home/leticia/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/leticia/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/leticia/.m2/repository/org/rauschig/jarchivelib/0.8.0/jarchivelib-0.8.0.jar:/home/leticia/.m2/repository/org/apache/commons/commons-compress/1.14/commons-compress-1.14.jar:/home/leticia/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/home/leticia/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2.jar:/home/leticia/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/leticia/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/home/leticia/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/home/leticia/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/leticia/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/home/leticia/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="webdriver.chrome.silentOutput" value="true"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/leticia/projetos/execution-selenium/testsuite-ppma-testng/target/surefire/surefirebooter-20230731153736872_3.jar /home/leticia/projetos/execution-selenium/testsuite-ppma-testng/target/surefire 2023-07-31T15-37-36_760-jvmRun1 surefire-20230731153736872_1tmp surefire_0-20230731153736872_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/leticia/projetos/execution-selenium/testsuite-ppma-testng/target/test-classes:/home/leticia/projetos/execution-selenium/testsuite-ppma-testng/target/classes:/home/leticia/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/leticia/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/leticia/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/leticia/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/leticia/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/leticia/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/leticia/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/leticia/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/leticia/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/leticia/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/leticia/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/leticia/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/leticia/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/leticia/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/leticia/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/leticia/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/leticia/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/leticia/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/leticia/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/leticia/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/leticia/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/leticia/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/leticia/.m2/repository/mysql/mysql-connector-java/6.0.5/mysql-connector-java-6.0.5.jar:/home/leticia/.m2/repository/io/github/bonigarcia/webdrivermanager/3.0.0/webdrivermanager-3.0.0.jar:/home/leticia/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/leticia/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/leticia/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/home/leticia/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar:/home/leticia/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/home/leticia/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/home/leticia/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/leticia/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/leticia/.m2/repository/org/rauschig/jarchivelib/0.8.0/jarchivelib-0.8.0.jar:/home/leticia/.m2/repository/org/apache/commons/commons-compress/1.14/commons-compress-1.14.jar:/home/leticia/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/home/leticia/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2.jar:/home/leticia/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/leticia/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/home/leticia/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/home/leticia/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/leticia/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/home/leticia/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/leticia"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/leticia/projetos/execution-selenium/testsuite-ppma-testng"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/leticia/projetos/execution-selenium/testsuite-ppma-testng/target/surefire/surefirebooter-20230731153736872_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.18+10-post-Ubuntu-0ubuntu122.04"/>
+    <property name="user.name" value="leticia"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.2.0-76060200-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/leticia/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.18"/>
+    <property name="user.dir" value="/home/leticia/projetos/execution-selenium/testsuite-ppma-testng"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="11.0.18+10-post-Ubuntu-0ubuntu122.04"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testPasswordManagerAddEntry[3000, 127.0.0.1](1)" classname="tests.PasswordManagerAddEntryTest" time="1.43">
+    <system-out><![CDATA[Host: 127.0.0.1, port: 3000, browserPort: 4445
+]]></system-out>
+    <system-err><![CDATA[ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testPasswordManagerSearchEntryByName[3000, 127.0.0.1](1)" classname="tests.PasswordManagerSearchEntryByNameTest" time="2.684">
+    <system-err><![CDATA[ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testPasswordManagerSearchEntryByUsername[3000, 127.0.0.1](1)" classname="tests.PasswordManagerSearchEntryByUsernameTest" time="2.691">
+    <system-err><![CDATA[ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testPasswordManagerSearchEntryByUrl[3000, 127.0.0.1](1)" classname="tests.PasswordManagerSearchEntryByUrlTest" time="2.693">
+    <system-err><![CDATA[ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testPasswordManagerSearchEntryByTags[3000, 127.0.0.1](1)" classname="tests.PasswordManagerSearchEntryByTagsTest" time="4.98">
+    <system-err><![CDATA[ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testPasswordManagerSearchEntryByComment[3000, 127.0.0.1](1)" classname="tests.PasswordManagerSearchEntryByCommentTest" time="2.764">
+    <system-err><![CDATA[ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testPasswordManagerSearchEntryByTagList[3000, 127.0.0.1](1)" classname="tests.PasswordManagerSearchEntryByTagListTest" time="0.573">
+    <system-err><![CDATA[ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testPasswordManagerEditEntry[3000, 127.0.0.1](1)" classname="tests.PasswordManagerEditEntryTest" time="4.718">
+    <system-err><![CDATA[ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testPasswordManagerSearchTags[3000, 127.0.0.1](1)" classname="tests.PasswordManagerSearchTagsTest" time="2.677">
+    <system-err><![CDATA[ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testPasswordManagerRemoveTags" classname="tests.PasswordManagerRemoveTagsTest" time="0.714">
+    <system-err><![CDATA[ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testPasswordManagerCheckEntryTagsRemoved" classname="tests.PasswordManagerCheckEntryTagsRemovedTest" time="0.487">
+    <system-err><![CDATA[ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testPasswordManagerRemoveEntry" classname="tests.PasswordManagerRemoveEntryTest" time="0.538">
+    <system-err><![CDATA[ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testPasswordManagerSearchEntryNegative" classname="tests.PasswordManagerSearchEntryNegativeTest" time="2.636">
+    <system-err><![CDATA[ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testPasswordManagerSearchTagNegative" classname="tests.PasswordManagerSearchTagNegativeTest" time="2.761">
+    <system-err><![CDATA[ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testPasswordManagerAddTag[3000, 127.0.0.1](1)" classname="tests.PasswordManagerAddTagTest" time="0.837">
+    <system-err><![CDATA[ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testPasswordManagerEditTag[3000, 127.0.0.1](1)" classname="tests.PasswordManagerEditTagTest" time="0.699">
+    <system-err><![CDATA[ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testPasswordManagerRemoveTag" classname="tests.PasswordManagerRemoveTagTest" time="0.544">
+    <system-err><![CDATA[ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testPasswordManagerAssignTagToEntry[3000, 127.0.0.1](1)" classname="tests.PasswordManagerAssignTagToEntryTest" time="12.866">
+    <system-err><![CDATA[ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testPasswordManagerAddMultipleEntries" classname="tests.PasswordManagerAddMultipleEntriesTest" time="25.256">
+    <system-err><![CDATA[ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testPasswordManagerSearchMultipleEntries" classname="tests.PasswordManagerSearchMultipleEntriesTest" time="12.616">
+    <system-err><![CDATA[ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testPasswordManagerCheckUsedTags" classname="tests.PasswordManagerCheckUsedTagsTest" time="10.884">
+    <system-err><![CDATA[ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testPasswordManagerSearchAndRemoveMultipleTags" classname="tests.PasswordManagerSearchAndRemoveMultipleTagsTest" time="7.514">
+    <system-err><![CDATA[ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testPasswordManagerRemoveMultipleEntries" classname="tests.PasswordManagerRemoveMultipleEntriesTest" time="5.6">
+    <system-err><![CDATA[ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-31T15:37:37 BRT" name="Suite" finished-at="2023-07-31T15:39:36 BRT" duration-ms="118890">
+    <groups>
+    </groups>
+    <test started-at="2023-07-31T15:37:37 BRT" name="Test" finished-at="2023-07-31T15:39:36 BRT" duration-ms="118890">
+      <class name="tests.PasswordManagerRemoveTagsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerRemoveTagsTest@6f3b5d16]" started-at="2023-07-31T15:38:07 BRT" name="setUp" finished-at="2023-07-31T15:38:07 BRT" duration-ms="322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPasswordManagerRemoveTags()[pri:0, instance:tests.PasswordManagerRemoveTagsTest@6f3b5d16]" started-at="2023-07-31T15:38:07 BRT" name="testPasswordManagerRemoveTags" finished-at="2023-07-31T15:38:08 BRT" duration-ms="715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordManagerRemoveTags -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PasswordManagerRemoveTagsTest@6f3b5d16]" started-at="2023-07-31T15:38:08 BRT" name="tearDown" finished-at="2023-07-31T15:38:08 BRT" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PasswordManagerRemoveTagsTest -->
+      <class name="tests.PasswordManagerAddEntryTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerAddEntryTest@23282c25]" started-at="2023-07-31T15:37:37 BRT" name="setUp" finished-at="2023-07-31T15:37:38 BRT" duration-ms="1329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPasswordManagerAddEntry(java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerAddEntryTest@23282c25]" started-at="2023-07-31T15:37:38 BRT" name="testPasswordManagerAddEntry" finished-at="2023-07-31T15:37:40 BRT" duration-ms="1429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordManagerAddEntry -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PasswordManagerAddEntryTest@23282c25]" started-at="2023-07-31T15:37:40 BRT" name="tearDown" finished-at="2023-07-31T15:37:40 BRT" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PasswordManagerAddEntryTest -->
+      <class name="tests.PasswordManagerEditEntryTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerEditEntryTest@55a561cf]" started-at="2023-07-31T15:37:58 BRT" name="setUp" finished-at="2023-07-31T15:37:59 BRT" duration-ms="291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPasswordManagerEditEntry(java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerEditEntryTest@55a561cf]" started-at="2023-07-31T15:37:59 BRT" name="testPasswordManagerEditEntry" finished-at="2023-07-31T15:38:03 BRT" duration-ms="4718" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordManagerEditEntry -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PasswordManagerEditEntryTest@55a561cf]" started-at="2023-07-31T15:38:03 BRT" name="tearDown" finished-at="2023-07-31T15:38:03 BRT" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PasswordManagerEditEntryTest -->
+      <class name="tests.PasswordManagerAssignTagToEntryTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerAssignTagToEntryTest@436a4e4b]" started-at="2023-07-31T15:38:19 BRT" name="setUp" finished-at="2023-07-31T15:38:19 BRT" duration-ms="329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPasswordManagerAssignTagToEntry(java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerAssignTagToEntryTest@436a4e4b]" started-at="2023-07-31T15:38:19 BRT" name="testPasswordManagerAssignTagToEntry" finished-at="2023-07-31T15:38:32 BRT" duration-ms="12865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordManagerAssignTagToEntry -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PasswordManagerAssignTagToEntryTest@436a4e4b]" started-at="2023-07-31T15:38:32 BRT" name="tearDown" finished-at="2023-07-31T15:38:32 BRT" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PasswordManagerAssignTagToEntryTest -->
+      <class name="tests.PasswordManagerSearchEntryByUrlTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerSearchEntryByUrlTest@3b2da18f]" started-at="2023-07-31T15:37:46 BRT" name="setUp" finished-at="2023-07-31T15:37:46 BRT" duration-ms="289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPasswordManagerSearchEntryByUrl(java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerSearchEntryByUrlTest@3b2da18f]" started-at="2023-07-31T15:37:46 BRT" name="testPasswordManagerSearchEntryByUrl" finished-at="2023-07-31T15:37:49 BRT" duration-ms="2693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordManagerSearchEntryByUrl -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PasswordManagerSearchEntryByUrlTest@3b2da18f]" started-at="2023-07-31T15:37:49 BRT" name="tearDown" finished-at="2023-07-31T15:37:49 BRT" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PasswordManagerSearchEntryByUrlTest -->
+      <class name="tests.PasswordManagerRemoveEntryTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerRemoveEntryTest@6646153]" started-at="2023-07-31T15:38:08 BRT" name="setUp" finished-at="2023-07-31T15:38:09 BRT" duration-ms="293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPasswordManagerRemoveEntry()[pri:0, instance:tests.PasswordManagerRemoveEntryTest@6646153]" started-at="2023-07-31T15:38:09 BRT" name="testPasswordManagerRemoveEntry" finished-at="2023-07-31T15:38:09 BRT" duration-ms="538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordManagerRemoveEntry -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PasswordManagerRemoveEntryTest@6646153]" started-at="2023-07-31T15:38:09 BRT" name="tearDown" finished-at="2023-07-31T15:38:09 BRT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PasswordManagerRemoveEntryTest -->
+      <class name="tests.PasswordManagerSearchEntryNegativeTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerSearchEntryNegativeTest@21507a04]" started-at="2023-07-31T15:38:09 BRT" name="setUp" finished-at="2023-07-31T15:38:10 BRT" duration-ms="309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPasswordManagerSearchEntryNegative()[pri:0, instance:tests.PasswordManagerSearchEntryNegativeTest@21507a04]" started-at="2023-07-31T15:38:10 BRT" name="testPasswordManagerSearchEntryNegative" finished-at="2023-07-31T15:38:12 BRT" duration-ms="2635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordManagerSearchEntryNegative -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PasswordManagerSearchEntryNegativeTest@21507a04]" started-at="2023-07-31T15:38:12 BRT" name="tearDown" finished-at="2023-07-31T15:38:12 BRT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PasswordManagerSearchEntryNegativeTest -->
+      <class name="tests.PasswordManagerSearchEntryByCommentTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerSearchEntryByCommentTest@258e2e41]" started-at="2023-07-31T15:37:54 BRT" name="setUp" finished-at="2023-07-31T15:37:55 BRT" duration-ms="329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPasswordManagerSearchEntryByComment(java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerSearchEntryByCommentTest@258e2e41]" started-at="2023-07-31T15:37:55 BRT" name="testPasswordManagerSearchEntryByComment" finished-at="2023-07-31T15:37:57 BRT" duration-ms="2763" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordManagerSearchEntryByComment -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PasswordManagerSearchEntryByCommentTest@258e2e41]" started-at="2023-07-31T15:37:57 BRT" name="tearDown" finished-at="2023-07-31T15:37:57 BRT" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PasswordManagerSearchEntryByCommentTest -->
+      <class name="tests.PasswordManagerRemoveMultipleEntriesTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerRemoveMultipleEntriesTest@5c1a8622]" started-at="2023-07-31T15:39:30 BRT" name="setUp" finished-at="2023-07-31T15:39:30 BRT" duration-ms="357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPasswordManagerRemoveMultipleEntries()[pri:0, instance:tests.PasswordManagerRemoveMultipleEntriesTest@5c1a8622]" started-at="2023-07-31T15:39:30 BRT" name="testPasswordManagerRemoveMultipleEntries" finished-at="2023-07-31T15:39:36 BRT" duration-ms="5601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordManagerRemoveMultipleEntries -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PasswordManagerRemoveMultipleEntriesTest@5c1a8622]" started-at="2023-07-31T15:39:36 BRT" name="tearDown" finished-at="2023-07-31T15:39:36 BRT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PasswordManagerRemoveMultipleEntriesTest -->
+      <class name="tests.PasswordManagerSearchEntryByTagsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerSearchEntryByTagsTest@5906ebcb]" started-at="2023-07-31T15:37:49 BRT" name="setUp" finished-at="2023-07-31T15:37:49 BRT" duration-ms="311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPasswordManagerSearchEntryByTags(java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerSearchEntryByTagsTest@5906ebcb]" started-at="2023-07-31T15:37:49 BRT" name="testPasswordManagerSearchEntryByTags" finished-at="2023-07-31T15:37:54 BRT" duration-ms="4980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordManagerSearchEntryByTags -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PasswordManagerSearchEntryByTagsTest@5906ebcb]" started-at="2023-07-31T15:37:54 BRT" name="tearDown" finished-at="2023-07-31T15:37:54 BRT" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PasswordManagerSearchEntryByTagsTest -->
+      <class name="tests.PasswordManagerAddMultipleEntriesTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerAddMultipleEntriesTest@f2f2cc1]" started-at="2023-07-31T15:38:32 BRT" name="setUp" finished-at="2023-07-31T15:38:32 BRT" duration-ms="289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPasswordManagerAddMultipleEntries()[pri:0, instance:tests.PasswordManagerAddMultipleEntriesTest@f2f2cc1]" started-at="2023-07-31T15:38:32 BRT" name="testPasswordManagerAddMultipleEntries" finished-at="2023-07-31T15:38:58 BRT" duration-ms="25256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordManagerAddMultipleEntries -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PasswordManagerAddMultipleEntriesTest@f2f2cc1]" started-at="2023-07-31T15:38:58 BRT" name="tearDown" finished-at="2023-07-31T15:38:58 BRT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PasswordManagerAddMultipleEntriesTest -->
+      <class name="tests.PasswordManagerSearchAndRemoveMultipleTagsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerSearchAndRemoveMultipleTagsTest@2aa5fe93]" started-at="2023-07-31T15:39:22 BRT" name="setUp" finished-at="2023-07-31T15:39:22 BRT" duration-ms="325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPasswordManagerSearchAndRemoveMultipleTags()[pri:0, instance:tests.PasswordManagerSearchAndRemoveMultipleTagsTest@2aa5fe93]" started-at="2023-07-31T15:39:22 BRT" name="testPasswordManagerSearchAndRemoveMultipleTags" finished-at="2023-07-31T15:39:30 BRT" duration-ms="7515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordManagerSearchAndRemoveMultipleTags -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PasswordManagerSearchAndRemoveMultipleTagsTest@2aa5fe93]" started-at="2023-07-31T15:39:30 BRT" name="tearDown" finished-at="2023-07-31T15:39:30 BRT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PasswordManagerSearchAndRemoveMultipleTagsTest -->
+      <class name="tests.PasswordManagerEditTagTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerEditTagTest@475e586c]" started-at="2023-07-31T15:38:17 BRT" name="setUp" finished-at="2023-07-31T15:38:17 BRT" duration-ms="309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPasswordManagerEditTag(java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerEditTagTest@475e586c]" started-at="2023-07-31T15:38:17 BRT" name="testPasswordManagerEditTag" finished-at="2023-07-31T15:38:18 BRT" duration-ms="698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordManagerEditTag -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PasswordManagerEditTagTest@475e586c]" started-at="2023-07-31T15:38:18 BRT" name="tearDown" finished-at="2023-07-31T15:38:18 BRT" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PasswordManagerEditTagTest -->
+      <class name="tests.PasswordManagerSearchMultipleEntriesTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerSearchMultipleEntriesTest@3a079870]" started-at="2023-07-31T15:38:58 BRT" name="setUp" finished-at="2023-07-31T15:38:58 BRT" duration-ms="318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPasswordManagerSearchMultipleEntries()[pri:0, instance:tests.PasswordManagerSearchMultipleEntriesTest@3a079870]" started-at="2023-07-31T15:38:58 BRT" name="testPasswordManagerSearchMultipleEntries" finished-at="2023-07-31T15:39:11 BRT" duration-ms="12615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordManagerSearchMultipleEntries -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PasswordManagerSearchMultipleEntriesTest@3a079870]" started-at="2023-07-31T15:39:11 BRT" name="tearDown" finished-at="2023-07-31T15:39:11 BRT" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PasswordManagerSearchMultipleEntriesTest -->
+      <class name="tests.PasswordManagerRemoveTagTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerRemoveTagTest@657c8ad9]" started-at="2023-07-31T15:38:18 BRT" name="setUp" finished-at="2023-07-31T15:38:18 BRT" duration-ms="334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPasswordManagerRemoveTag()[pri:0, instance:tests.PasswordManagerRemoveTagTest@657c8ad9]" started-at="2023-07-31T15:38:18 BRT" name="testPasswordManagerRemoveTag" finished-at="2023-07-31T15:38:19 BRT" duration-ms="543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordManagerRemoveTag -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PasswordManagerRemoveTagTest@657c8ad9]" started-at="2023-07-31T15:38:19 BRT" name="tearDown" finished-at="2023-07-31T15:38:19 BRT" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PasswordManagerRemoveTagTest -->
+      <class name="tests.PasswordManagerAddTagTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerAddTagTest@6295d394]" started-at="2023-07-31T15:38:16 BRT" name="setUp" finished-at="2023-07-31T15:38:16 BRT" duration-ms="278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPasswordManagerAddTag(java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerAddTagTest@6295d394]" started-at="2023-07-31T15:38:16 BRT" name="testPasswordManagerAddTag" finished-at="2023-07-31T15:38:17 BRT" duration-ms="836" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordManagerAddTag -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PasswordManagerAddTagTest@6295d394]" started-at="2023-07-31T15:38:17 BRT" name="tearDown" finished-at="2023-07-31T15:38:17 BRT" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PasswordManagerAddTagTest -->
+      <class name="tests.PasswordManagerSearchEntryByUsernameTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerSearchEntryByUsernameTest@6b419da]" started-at="2023-07-31T15:37:43 BRT" name="setUp" finished-at="2023-07-31T15:37:43 BRT" duration-ms="296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPasswordManagerSearchEntryByUsername(java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerSearchEntryByUsernameTest@6b419da]" started-at="2023-07-31T15:37:43 BRT" name="testPasswordManagerSearchEntryByUsername" finished-at="2023-07-31T15:37:46 BRT" duration-ms="2691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordManagerSearchEntryByUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PasswordManagerSearchEntryByUsernameTest@6b419da]" started-at="2023-07-31T15:37:46 BRT" name="tearDown" finished-at="2023-07-31T15:37:46 BRT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PasswordManagerSearchEntryByUsernameTest -->
+      <class name="tests.PasswordManagerCheckEntryTagsRemovedTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerCheckEntryTagsRemovedTest@78b1cc93]" started-at="2023-07-31T15:38:08 BRT" name="setUp" finished-at="2023-07-31T15:38:08 BRT" duration-ms="290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPasswordManagerCheckEntryTagsRemoved()[pri:0, instance:tests.PasswordManagerCheckEntryTagsRemovedTest@78b1cc93]" started-at="2023-07-31T15:38:08 BRT" name="testPasswordManagerCheckEntryTagsRemoved" finished-at="2023-07-31T15:38:08 BRT" duration-ms="486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordManagerCheckEntryTagsRemoved -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PasswordManagerCheckEntryTagsRemovedTest@78b1cc93]" started-at="2023-07-31T15:38:08 BRT" name="tearDown" finished-at="2023-07-31T15:38:08 BRT" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PasswordManagerCheckEntryTagsRemovedTest -->
+      <class name="tests.PasswordManagerSearchTagNegativeTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerSearchTagNegativeTest@143640d5]" started-at="2023-07-31T15:38:12 BRT" name="setUp" finished-at="2023-07-31T15:38:13 BRT" duration-ms="321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPasswordManagerSearchTagNegative()[pri:0, instance:tests.PasswordManagerSearchTagNegativeTest@143640d5]" started-at="2023-07-31T15:38:13 BRT" name="testPasswordManagerSearchTagNegative" finished-at="2023-07-31T15:38:15 BRT" duration-ms="2760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordManagerSearchTagNegative -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PasswordManagerSearchTagNegativeTest@143640d5]" started-at="2023-07-31T15:38:15 BRT" name="tearDown" finished-at="2023-07-31T15:38:16 BRT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PasswordManagerSearchTagNegativeTest -->
+      <class name="tests.PasswordManagerSearchEntryByNameTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerSearchEntryByNameTest@7920ba90]" started-at="2023-07-31T15:37:40 BRT" name="setUp" finished-at="2023-07-31T15:37:40 BRT" duration-ms="327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPasswordManagerSearchEntryByName(java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerSearchEntryByNameTest@7920ba90]" started-at="2023-07-31T15:37:40 BRT" name="testPasswordManagerSearchEntryByName" finished-at="2023-07-31T15:37:43 BRT" duration-ms="2684" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordManagerSearchEntryByName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PasswordManagerSearchEntryByNameTest@7920ba90]" started-at="2023-07-31T15:37:43 BRT" name="tearDown" finished-at="2023-07-31T15:37:43 BRT" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PasswordManagerSearchEntryByNameTest -->
+      <class name="tests.PasswordManagerCheckUsedTagsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerCheckUsedTagsTest@3b2cf7ab]" started-at="2023-07-31T15:39:11 BRT" name="setUp" finished-at="2023-07-31T15:39:11 BRT" duration-ms="306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPasswordManagerCheckUsedTags()[pri:0, instance:tests.PasswordManagerCheckUsedTagsTest@3b2cf7ab]" started-at="2023-07-31T15:39:11 BRT" name="testPasswordManagerCheckUsedTags" finished-at="2023-07-31T15:39:22 BRT" duration-ms="10884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordManagerCheckUsedTags -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PasswordManagerCheckUsedTagsTest@3b2cf7ab]" started-at="2023-07-31T15:39:22 BRT" name="tearDown" finished-at="2023-07-31T15:39:22 BRT" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PasswordManagerCheckUsedTagsTest -->
+      <class name="tests.PasswordManagerSearchTagsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerSearchTagsTest@3b938003]" started-at="2023-07-31T15:38:03 BRT" name="setUp" finished-at="2023-07-31T15:38:04 BRT" duration-ms="294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPasswordManagerSearchTags(java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerSearchTagsTest@3b938003]" started-at="2023-07-31T15:38:04 BRT" name="testPasswordManagerSearchTags" finished-at="2023-07-31T15:38:06 BRT" duration-ms="2677" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordManagerSearchTags -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PasswordManagerSearchTagsTest@3b938003]" started-at="2023-07-31T15:38:06 BRT" name="tearDown" finished-at="2023-07-31T15:38:07 BRT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PasswordManagerSearchTagsTest -->
+      <class name="tests.PasswordManagerSearchEntryByTagListTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerSearchEntryByTagListTest@3d299e3]" started-at="2023-07-31T15:37:57 BRT" name="setUp" finished-at="2023-07-31T15:37:58 BRT" duration-ms="314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPasswordManagerSearchEntryByTagList(java.lang.String, java.lang.String)[pri:0, instance:tests.PasswordManagerSearchEntryByTagListTest@3d299e3]" started-at="2023-07-31T15:37:58 BRT" name="testPasswordManagerSearchEntryByTagList" finished-at="2023-07-31T15:37:58 BRT" duration-ms="574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordManagerSearchEntryByTagList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PasswordManagerSearchEntryByTagListTest@3d299e3]" started-at="2023-07-31T15:37:58 BRT" name="tearDown" finished-at="2023-07-31T15:37:58 BRT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PasswordManagerSearchEntryByTagListTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

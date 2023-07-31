@@ -1,0 +1,1814 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">40 methods,   40 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AddAndRemoveLateMilestoneTest" class="method navigator-link" hash-for-method="testCollabtiveAddAndRemoveLateMilestone">testCollabtiveAddAndRemoveLateMilestone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AddAndRemoveMultipleTasksTest" class="method navigator-link" hash-for-method="testCollabtiveAddAndRemoveMultipleTasks">testCollabtiveAddAndRemoveMultipleTasks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AddMilestoneTest" class="method navigator-link" hash-for-method="testCollabtiveAddMilestone">testCollabtiveAddMilestone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AddMultipleProjectsTest" class="method navigator-link" hash-for-method="testCollabtiveAddMultipleProjects">testCollabtiveAddMultipleProjects</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AddProjectTest" class="method navigator-link" hash-for-method="testCollabtiveAddProject(3000, 127.0.0.1)">testCollabtiveAddProject(3000, 127.0.0.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AddRoleTest" class="method navigator-link" hash-for-method="testCollabtiveAddRole(3000, 127.0.0.1)">testCollabtiveAddRole(3000, 127.0.0.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AddTaskDesktopPresentTest" class="method navigator-link" hash-for-method="testCollabtiveAddTaskDesktopPresent">testCollabtiveAddTaskDesktopPresent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AddTasklistTest" class="method navigator-link" hash-for-method="testCollabtiveAddTasklist">testCollabtiveAddTasklist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AddTasksTest" class="method navigator-link" hash-for-method="testCollabtiveAddTasks">testCollabtiveAddTasks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AddUserTest" class="method navigator-link" hash-for-method="testCollabtiveAddUser(3000, 127.0.0.1)">testCollabtiveAddUser(3000, 127.0.0.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AddUserAlreadyPresentTest" class="method navigator-link" hash-for-method="testCollabtiveAddUserAlreadyPresent">testCollabtiveAddUserAlreadyPresent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AddUserEmptyValuesTest" class="method navigator-link" hash-for-method="testCollabtiveAddUserEmptyValues">testCollabtiveAddUserEmptyValues</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.AssignUserToProjectTest" class="method navigator-link" hash-for-method="testCollabtiveAssignUserToProject(3000, 127.0.0.1)">testCollabtiveAssignUserToProject(3000, 127.0.0.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.CloseMilestoneTest" class="method navigator-link" hash-for-method="testCollabtiveCloseMilestone">testCollabtiveCloseMilestone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.CloseProjectTest" class="method navigator-link" hash-for-method="testCollabtiveCloseProject(3000, 127.0.0.1)">testCollabtiveCloseProject(3000, 127.0.0.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.CloseTasklistTest" class="method navigator-link" hash-for-method="testCollabtiveCloseTasklist">testCollabtiveCloseTasklist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.CloseTasksTest" class="method navigator-link" hash-for-method="testCollabtiveCloseTasks">testCollabtiveCloseTasks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.CloseTasksProjectPercentageTest" class="method navigator-link" hash-for-method="testCollabtiveCloseTasksProjectPercentage">testCollabtiveCloseTasksProjectPercentage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.EditMilestoneTest" class="method navigator-link" hash-for-method="testCollabtiveEditMilestone">testCollabtiveEditMilestone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.EditProjectTest" class="method navigator-link" hash-for-method="testCollabtiveEditProject(3000, 127.0.0.1)">testCollabtiveEditProject(3000, 127.0.0.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.EditRoleTest" class="method navigator-link" hash-for-method="testCollabtiveEditRole(3000, 127.0.0.1)">testCollabtiveEditRole(3000, 127.0.0.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.EditUserRoleTest" class="method navigator-link" hash-for-method="testCollabtiveEditUserRole">testCollabtiveEditUserRole</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.LoginUserTest" class="method navigator-link" hash-for-method="testCollabtiveLoginUser(3000, 127.0.0.1)">testCollabtiveLoginUser(3000, 127.0.0.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.OpenMilestoneTest" class="method navigator-link" hash-for-method="testCollabtiveOpenMilestone">testCollabtiveOpenMilestone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.OpenProjectTest" class="method navigator-link" hash-for-method="testCollabtiveOpenProject(3000, 127.0.0.1)">testCollabtiveOpenProject(3000, 127.0.0.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.OpenTasklistTest" class="method navigator-link" hash-for-method="testCollabtiveOpenTasklist">testCollabtiveOpenTasklist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.OpenTasksTest" class="method navigator-link" hash-for-method="testCollabtiveOpenTasks">testCollabtiveOpenTasks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.OpenTasksProjectPercentageTest" class="method navigator-link" hash-for-method="testCollabtiveOpenTasksProjectPercentage">testCollabtiveOpenTasksProjectPercentage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.RemoveMilestoneTest" class="method navigator-link" hash-for-method="testCollabtiveRemoveMilestone">testCollabtiveRemoveMilestone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.RemoveMultipleProjectsTest" class="method navigator-link" hash-for-method="testCollabtiveRemoveMultipleProjects">testCollabtiveRemoveMultipleProjects</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.RemoveProjectTest" class="method navigator-link" hash-for-method="testCollabtiveRemoveProject">testCollabtiveRemoveProject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.RemoveRoleTest" class="method navigator-link" hash-for-method="testCollabtiveRemoveRole">testCollabtiveRemoveRole</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.RemoveTaskDesktopNotPresentTest" class="method navigator-link" hash-for-method="testCollabtiveRemoveTaskDesktopNotPresent">testCollabtiveRemoveTaskDesktopNotPresent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.RemoveTasklistTest" class="method navigator-link" hash-for-method="testCollabtiveRemoveTasklist">testCollabtiveRemoveTasklist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.RemoveTasksTest" class="method navigator-link" hash-for-method="testCollabtiveRemoveTasks">testCollabtiveRemoveTasks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.RemoveUserTest" class="method navigator-link" hash-for-method="testCollabtiveRemoveUser">testCollabtiveRemoveUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.RemoveUserFromProjectTest" class="method navigator-link" hash-for-method="testCollabtiveRemoveUserFromProject">testCollabtiveRemoveUserFromProject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.SearchClosedProjectTest" class="method navigator-link" hash-for-method="testCollabtiveSearchClosedProject(3000, 127.0.0.1)">testCollabtiveSearchClosedProject(3000, 127.0.0.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.SearchMultipleProjectsTest" class="method navigator-link" hash-for-method="testCollabtiveSearchMultipleProjects">testCollabtiveSearchMultipleProjects</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.SearchProjectTest" class="method navigator-link" hash-for-method="testCollabtiveSearchProject(3000, 127.0.0.1)">testCollabtiveSearchProject(3000, 127.0.0.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.RemoveUserFromProjectTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveRemoveUserFromProject">
+                  </a> <!-- testCollabtiveRemoveUserFromProject -->
+                  <span class="method-name">testCollabtiveRemoveUserFromProject</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CloseTasksProjectPercentageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveCloseTasksProjectPercentage">
+                  </a> <!-- testCollabtiveCloseTasksProjectPercentage -->
+                  <span class="method-name">testCollabtiveCloseTasksProjectPercentage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.OpenTasksTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveOpenTasks">
+                  </a> <!-- testCollabtiveOpenTasks -->
+                  <span class="method-name">testCollabtiveOpenTasks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SearchProjectTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveSearchProject(3000, 127.0.0.1)">
+                  </a> <!-- testCollabtiveSearchProject(3000, 127.0.0.1) -->
+                  <span class="method-name">testCollabtiveSearchProject</span>
+                  <span class="parameters">(3000, 127.0.0.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SearchMultipleProjectsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveSearchMultipleProjects">
+                  </a> <!-- testCollabtiveSearchMultipleProjects -->
+                  <span class="method-name">testCollabtiveSearchMultipleProjects</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddAndRemoveLateMilestoneTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveAddAndRemoveLateMilestone">
+                  </a> <!-- testCollabtiveAddAndRemoveLateMilestone -->
+                  <span class="method-name">testCollabtiveAddAndRemoveLateMilestone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SearchClosedProjectTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveSearchClosedProject(3000, 127.0.0.1)">
+                  </a> <!-- testCollabtiveSearchClosedProject(3000, 127.0.0.1) -->
+                  <span class="method-name">testCollabtiveSearchClosedProject</span>
+                  <span class="parameters">(3000, 127.0.0.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.RemoveMultipleProjectsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveRemoveMultipleProjects">
+                  </a> <!-- testCollabtiveRemoveMultipleProjects -->
+                  <span class="method-name">testCollabtiveRemoveMultipleProjects</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CloseMilestoneTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveCloseMilestone">
+                  </a> <!-- testCollabtiveCloseMilestone -->
+                  <span class="method-name">testCollabtiveCloseMilestone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.OpenTasksProjectPercentageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveOpenTasksProjectPercentage">
+                  </a> <!-- testCollabtiveOpenTasksProjectPercentage -->
+                  <span class="method-name">testCollabtiveOpenTasksProjectPercentage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.EditUserRoleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveEditUserRole">
+                  </a> <!-- testCollabtiveEditUserRole -->
+                  <span class="method-name">testCollabtiveEditUserRole</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddTaskDesktopPresentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveAddTaskDesktopPresent">
+                  </a> <!-- testCollabtiveAddTaskDesktopPresent -->
+                  <span class="method-name">testCollabtiveAddTaskDesktopPresent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AssignUserToProjectTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveAssignUserToProject(3000, 127.0.0.1)">
+                  </a> <!-- testCollabtiveAssignUserToProject(3000, 127.0.0.1) -->
+                  <span class="method-name">testCollabtiveAssignUserToProject</span>
+                  <span class="parameters">(3000, 127.0.0.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveAddUser(3000, 127.0.0.1)">
+                  </a> <!-- testCollabtiveAddUser(3000, 127.0.0.1) -->
+                  <span class="method-name">testCollabtiveAddUser</span>
+                  <span class="parameters">(3000, 127.0.0.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CloseTasklistTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveCloseTasklist">
+                  </a> <!-- testCollabtiveCloseTasklist -->
+                  <span class="method-name">testCollabtiveCloseTasklist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.EditMilestoneTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveEditMilestone">
+                  </a> <!-- testCollabtiveEditMilestone -->
+                  <span class="method-name">testCollabtiveEditMilestone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.EditProjectTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveEditProject(3000, 127.0.0.1)">
+                  </a> <!-- testCollabtiveEditProject(3000, 127.0.0.1) -->
+                  <span class="method-name">testCollabtiveEditProject</span>
+                  <span class="parameters">(3000, 127.0.0.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddMultipleProjectsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveAddMultipleProjects">
+                  </a> <!-- testCollabtiveAddMultipleProjects -->
+                  <span class="method-name">testCollabtiveAddMultipleProjects</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LoginUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveLoginUser(3000, 127.0.0.1)">
+                  </a> <!-- testCollabtiveLoginUser(3000, 127.0.0.1) -->
+                  <span class="method-name">testCollabtiveLoginUser</span>
+                  <span class="parameters">(3000, 127.0.0.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.RemoveRoleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveRemoveRole">
+                  </a> <!-- testCollabtiveRemoveRole -->
+                  <span class="method-name">testCollabtiveRemoveRole</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddUserAlreadyPresentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveAddUserAlreadyPresent">
+                  </a> <!-- testCollabtiveAddUserAlreadyPresent -->
+                  <span class="method-name">testCollabtiveAddUserAlreadyPresent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.EditRoleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveEditRole(3000, 127.0.0.1)">
+                  </a> <!-- testCollabtiveEditRole(3000, 127.0.0.1) -->
+                  <span class="method-name">testCollabtiveEditRole</span>
+                  <span class="parameters">(3000, 127.0.0.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddUserEmptyValuesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveAddUserEmptyValues">
+                  </a> <!-- testCollabtiveAddUserEmptyValues -->
+                  <span class="method-name">testCollabtiveAddUserEmptyValues</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddProjectTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveAddProject(3000, 127.0.0.1)">
+                  </a> <!-- testCollabtiveAddProject(3000, 127.0.0.1) -->
+                  <span class="method-name">testCollabtiveAddProject</span>
+                  <span class="parameters">(3000, 127.0.0.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.OpenTasklistTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveOpenTasklist">
+                  </a> <!-- testCollabtiveOpenTasklist -->
+                  <span class="method-name">testCollabtiveOpenTasklist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddTasklistTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveAddTasklist">
+                  </a> <!-- testCollabtiveAddTasklist -->
+                  <span class="method-name">testCollabtiveAddTasklist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.OpenMilestoneTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveOpenMilestone">
+                  </a> <!-- testCollabtiveOpenMilestone -->
+                  <span class="method-name">testCollabtiveOpenMilestone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.RemoveTasklistTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveRemoveTasklist">
+                  </a> <!-- testCollabtiveRemoveTasklist -->
+                  <span class="method-name">testCollabtiveRemoveTasklist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddRoleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveAddRole(3000, 127.0.0.1)">
+                  </a> <!-- testCollabtiveAddRole(3000, 127.0.0.1) -->
+                  <span class="method-name">testCollabtiveAddRole</span>
+                  <span class="parameters">(3000, 127.0.0.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.RemoveProjectTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveRemoveProject">
+                  </a> <!-- testCollabtiveRemoveProject -->
+                  <span class="method-name">testCollabtiveRemoveProject</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddAndRemoveMultipleTasksTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveAddAndRemoveMultipleTasks">
+                  </a> <!-- testCollabtiveAddAndRemoveMultipleTasks -->
+                  <span class="method-name">testCollabtiveAddAndRemoveMultipleTasks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.RemoveTasksTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveRemoveTasks">
+                  </a> <!-- testCollabtiveRemoveTasks -->
+                  <span class="method-name">testCollabtiveRemoveTasks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddMilestoneTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveAddMilestone">
+                  </a> <!-- testCollabtiveAddMilestone -->
+                  <span class="method-name">testCollabtiveAddMilestone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.RemoveTaskDesktopNotPresentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveRemoveTaskDesktopNotPresent">
+                  </a> <!-- testCollabtiveRemoveTaskDesktopNotPresent -->
+                  <span class="method-name">testCollabtiveRemoveTaskDesktopNotPresent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddTasksTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveAddTasks">
+                  </a> <!-- testCollabtiveAddTasks -->
+                  <span class="method-name">testCollabtiveAddTasks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.OpenProjectTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveOpenProject(3000, 127.0.0.1)">
+                  </a> <!-- testCollabtiveOpenProject(3000, 127.0.0.1) -->
+                  <span class="method-name">testCollabtiveOpenProject</span>
+                  <span class="parameters">(3000, 127.0.0.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.RemoveUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveRemoveUser">
+                  </a> <!-- testCollabtiveRemoveUser -->
+                  <span class="method-name">testCollabtiveRemoveUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.RemoveMilestoneTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveRemoveMilestone">
+                  </a> <!-- testCollabtiveRemoveMilestone -->
+                  <span class="method-name">testCollabtiveRemoveMilestone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CloseProjectTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveCloseProject(3000, 127.0.0.1)">
+                  </a> <!-- testCollabtiveCloseProject(3000, 127.0.0.1) -->
+                  <span class="method-name">testCollabtiveCloseProject</span>
+                  <span class="parameters">(3000, 127.0.0.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CloseTasksTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollabtiveCloseTasks">
+                  </a> <!-- testCollabtiveCloseTasks -->
+                  <span class="method-name">testCollabtiveCloseTasks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/home/leticia/projetos/execution-selenium/testsuite-collabtive-testng/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;browserPort&quot; value=&quot;4445&quot;/&gt;
+  &lt;parameter name=&quot;port&quot; value=&quot;3000&quot;/&gt;
+  &lt;parameter name=&quot;host&quot; value=&quot;127.0.0.1&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.AddProjectTest&quot;/&gt;
+      &lt;class name=&quot;tests.EditProjectTest&quot;/&gt;
+      &lt;class name=&quot;tests.SearchProjectTest&quot;/&gt;
+      &lt;class name=&quot;tests.CloseProjectTest&quot;/&gt;
+      &lt;class name=&quot;tests.SearchClosedProjectTest&quot;/&gt;
+      &lt;class name=&quot;tests.OpenProjectTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddRoleTest&quot;/&gt;
+      &lt;class name=&quot;tests.EditRoleTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddUserTest&quot;/&gt;
+      &lt;class name=&quot;tests.EditUserRoleTest&quot;/&gt;
+      &lt;class name=&quot;tests.LoginUserTest&quot;/&gt;
+      &lt;class name=&quot;tests.AssignUserToProjectTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddMilestoneTest&quot;/&gt;
+      &lt;class name=&quot;tests.EditMilestoneTest&quot;/&gt;
+      &lt;class name=&quot;tests.CloseMilestoneTest&quot;/&gt;
+      &lt;class name=&quot;tests.OpenMilestoneTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddTasklistTest&quot;/&gt;
+      &lt;class name=&quot;tests.CloseTasklistTest&quot;/&gt;
+      &lt;class name=&quot;tests.OpenTasklistTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddAndRemoveMultipleTasksTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddTaskDesktopPresentTest&quot;/&gt;
+      &lt;class name=&quot;tests.RemoveTaskDesktopNotPresentTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddTasksTest&quot;/&gt;
+      &lt;class name=&quot;tests.CloseTasksTest&quot;/&gt;
+      &lt;class name=&quot;tests.OpenTasksTest&quot;/&gt;
+      &lt;class name=&quot;tests.CloseTasksProjectPercentageTest&quot;/&gt;
+      &lt;class name=&quot;tests.OpenTasksProjectPercentageTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddUserAlreadyPresentTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddUserEmptyValuesTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddAndRemoveLateMilestoneTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddMultipleProjectsTest&quot;/&gt;
+      &lt;class name=&quot;tests.SearchMultipleProjectsTest&quot;/&gt;
+      &lt;class name=&quot;tests.RemoveMultipleProjectsTest&quot;/&gt;
+      &lt;class name=&quot;tests.RemoveUserFromProjectTest&quot;/&gt;
+      &lt;class name=&quot;tests.RemoveTasksTest&quot;/&gt;
+      &lt;class name=&quot;tests.RemoveTasklistTest&quot;/&gt;
+      &lt;class name=&quot;tests.RemoveMilestoneTest&quot;/&gt;
+      &lt;class name=&quot;tests.RemoveRoleTest&quot;/&gt;
+      &lt;class name=&quot;tests.RemoveUserTest&quot;/&gt;
+      &lt;class name=&quot;tests.RemoveProjectTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (40 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(40);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testCollabtiveEditUserRole')
+data.setCell(0, 2, 'tests.EditUserRoleTest')
+data.setCell(0, 3, 10408);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testCollabtiveAddProject')
+data.setCell(1, 2, 'tests.AddProjectTest')
+data.setCell(1, 3, 7335);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testCollabtiveAssignUserToProject')
+data.setCell(2, 2, 'tests.AssignUserToProjectTest')
+data.setCell(2, 3, 6945);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testCollabtiveAddAndRemoveMultipleTasks')
+data.setCell(3, 2, 'tests.AddAndRemoveMultipleTasksTest')
+data.setCell(3, 3, 6723);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testCollabtiveAddUser')
+data.setCell(4, 2, 'tests.AddUserTest')
+data.setCell(4, 3, 6343);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testCollabtiveAddRole')
+data.setCell(5, 2, 'tests.AddRoleTest')
+data.setCell(5, 3, 6170);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testCollabtiveRemoveUserFromProject')
+data.setCell(6, 2, 'tests.RemoveUserFromProjectTest')
+data.setCell(6, 3, 5747);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testCollabtiveRemoveUser')
+data.setCell(7, 2, 'tests.RemoveUserTest')
+data.setCell(7, 3, 5504);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testCollabtiveAddAndRemoveLateMilestone')
+data.setCell(8, 2, 'tests.AddAndRemoveLateMilestoneTest')
+data.setCell(8, 3, 5464);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testCollabtiveAddMultipleProjects')
+data.setCell(9, 2, 'tests.AddMultipleProjectsTest')
+data.setCell(9, 3, 5396);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testCollabtiveAddTasklist')
+data.setCell(10, 2, 'tests.AddTasklistTest')
+data.setCell(10, 3, 5213);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testCollabtiveRemoveMultipleProjects')
+data.setCell(11, 2, 'tests.RemoveMultipleProjectsTest')
+data.setCell(11, 3, 5212);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testCollabtiveAddTasks')
+data.setCell(12, 2, 'tests.AddTasksTest')
+data.setCell(12, 3, 3261);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testCollabtiveOpenTasksProjectPercentage')
+data.setCell(13, 2, 'tests.OpenTasksProjectPercentageTest')
+data.setCell(13, 3, 3217);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testCollabtiveEditProject')
+data.setCell(14, 2, 'tests.EditProjectTest')
+data.setCell(14, 3, 2984);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testCollabtiveAddUserAlreadyPresent')
+data.setCell(15, 2, 'tests.AddUserAlreadyPresentTest')
+data.setCell(15, 3, 2971);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testCollabtiveCloseMilestone')
+data.setCell(16, 2, 'tests.CloseMilestoneTest')
+data.setCell(16, 3, 2888);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testCollabtiveOpenTasks')
+data.setCell(17, 2, 'tests.OpenTasksTest')
+data.setCell(17, 3, 2821);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testCollabtiveRemoveMilestone')
+data.setCell(18, 2, 'tests.RemoveMilestoneTest')
+data.setCell(18, 3, 2597);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testCollabtiveAddTaskDesktopPresent')
+data.setCell(19, 2, 'tests.AddTaskDesktopPresentTest')
+data.setCell(19, 3, 2259);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testCollabtiveAddMilestone')
+data.setCell(20, 2, 'tests.AddMilestoneTest')
+data.setCell(20, 3, 2226);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testCollabtiveCloseTasksProjectPercentage')
+data.setCell(21, 2, 'tests.CloseTasksProjectPercentageTest')
+data.setCell(21, 3, 2154);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testCollabtiveCloseTasklist')
+data.setCell(22, 2, 'tests.CloseTasklistTest')
+data.setCell(22, 3, 2064);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testCollabtiveAddUserEmptyValues')
+data.setCell(23, 2, 'tests.AddUserEmptyValuesTest')
+data.setCell(23, 3, 2012);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testCollabtiveEditMilestone')
+data.setCell(24, 2, 'tests.EditMilestoneTest')
+data.setCell(24, 3, 1972);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testCollabtiveRemoveRole')
+data.setCell(25, 2, 'tests.RemoveRoleTest')
+data.setCell(25, 3, 1943);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testCollabtiveCloseTasks')
+data.setCell(26, 2, 'tests.CloseTasksTest')
+data.setCell(26, 3, 1934);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testCollabtiveEditRole')
+data.setCell(27, 2, 'tests.EditRoleTest')
+data.setCell(27, 3, 1902);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testCollabtiveOpenProject')
+data.setCell(28, 2, 'tests.OpenProjectTest')
+data.setCell(28, 3, 1867);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testCollabtiveOpenMilestone')
+data.setCell(29, 2, 'tests.OpenMilestoneTest')
+data.setCell(29, 3, 1865);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testCollabtiveCloseProject')
+data.setCell(30, 2, 'tests.CloseProjectTest')
+data.setCell(30, 3, 1780);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testCollabtiveSearchProject')
+data.setCell(31, 2, 'tests.SearchProjectTest')
+data.setCell(31, 3, 1688);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testCollabtiveSearchClosedProject')
+data.setCell(32, 2, 'tests.SearchClosedProjectTest')
+data.setCell(32, 3, 1584);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testCollabtiveRemoveTasks')
+data.setCell(33, 2, 'tests.RemoveTasksTest')
+data.setCell(33, 3, 1361);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testCollabtiveRemoveTaskDesktopNotPresent')
+data.setCell(34, 2, 'tests.RemoveTaskDesktopNotPresentTest')
+data.setCell(34, 3, 1088);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testCollabtiveRemoveTasklist')
+data.setCell(35, 2, 'tests.RemoveTasklistTest')
+data.setCell(35, 3, 1026);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testCollabtiveRemoveProject')
+data.setCell(36, 2, 'tests.RemoveProjectTest')
+data.setCell(36, 3, 793);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testCollabtiveOpenTasklist')
+data.setCell(37, 2, 'tests.OpenTasklistTest')
+data.setCell(37, 3, 769);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testCollabtiveSearchMultipleProjects')
+data.setCell(38, 2, 'tests.SearchMultipleProjectsTest')
+data.setCell(38, 3, 610);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testCollabtiveLoginUser')
+data.setCell(39, 2, 'tests.LoginUserTest')
+data.setCell(39, 3, 544);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddProjectTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveAddProject(3000, 127.0.0.1)</span>
+                <span class="method-start">539 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7878 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.EditProjectTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">7948 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveEditProject(3000, 127.0.0.1)</span>
+                <span class="method-start">8084 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11068 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchProjectTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">11136 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveSearchProject(3000, 127.0.0.1)</span>
+                <span class="method-start">11240 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12929 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CloseProjectTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">12996 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveCloseProject(3000, 127.0.0.1)</span>
+                <span class="method-start">13141 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14922 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchClosedProjectTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">14993 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveSearchClosedProject(3000, 127.0.0.1)</span>
+                <span class="method-start">15101 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16686 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.OpenProjectTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">16753 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveOpenProject(3000, 127.0.0.1)</span>
+                <span class="method-start">16864 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18732 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddRoleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">18800 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveAddRole(3000, 127.0.0.1)</span>
+                <span class="method-start">18993 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25164 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.EditRoleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">25231 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveEditRole(3000, 127.0.0.1)</span>
+                <span class="method-start">25421 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27323 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">27390 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveAddUser(3000, 127.0.0.1)</span>
+                <span class="method-start">27519 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33863 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.EditUserRoleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">33934 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveEditUserRole</span>
+                <span class="method-start">34136 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">44545 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">44616 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveLoginUser(3000, 127.0.0.1)</span>
+                <span class="method-start">44748 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">45292 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AssignUserToProjectTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">45358 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveAssignUserToProject(3000, 127.0.0.1)</span>
+                <span class="method-start">45523 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">52468 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddMilestoneTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">52536 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveAddMilestone</span>
+                <span class="method-start">52722 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">54949 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.EditMilestoneTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">55015 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveEditMilestone</span>
+                <span class="method-start">55207 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">57179 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CloseMilestoneTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">57251 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveCloseMilestone</span>
+                <span class="method-start">57436 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">60325 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.OpenMilestoneTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">60392 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveOpenMilestone</span>
+                <span class="method-start">60591 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">62457 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddTasklistTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">62528 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveAddTasklist</span>
+                <span class="method-start">62714 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">67927 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CloseTasklistTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">67995 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveCloseTasklist</span>
+                <span class="method-start">68183 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">70247 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.OpenTasklistTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">70317 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveOpenTasklist</span>
+                <span class="method-start">70479 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">71248 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddAndRemoveMultipleTasksTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">71315 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveAddAndRemoveMultipleTasks</span>
+                <span class="method-start">71475 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">78198 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddTaskDesktopPresentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">78267 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveAddTaskDesktopPresent</span>
+                <span class="method-start">78434 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">80693 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RemoveTaskDesktopNotPresentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">80760 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveRemoveTaskDesktopNotPresent</span>
+                <span class="method-start">80921 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">82009 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddTasksTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">82075 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveAddTasks</span>
+                <span class="method-start">82233 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">85495 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CloseTasksTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">85562 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveCloseTasks</span>
+                <span class="method-start">85725 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">87659 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.OpenTasksTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">87726 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveOpenTasks</span>
+                <span class="method-start">87914 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">90735 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CloseTasksProjectPercentageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">90806 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveCloseTasksProjectPercentage</span>
+                <span class="method-start">90966 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">93120 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.OpenTasksProjectPercentageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">93187 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveOpenTasksProjectPercentage</span>
+                <span class="method-start">93370 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">96587 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddUserAlreadyPresentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">96658 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveAddUserAlreadyPresent</span>
+                <span class="method-start">96844 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">99816 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddUserEmptyValuesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">99882 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveAddUserEmptyValues</span>
+                <span class="method-start">100057 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">102069 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddAndRemoveLateMilestoneTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">102140 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveAddAndRemoveLateMilestone</span>
+                <span class="method-start">102332 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">107796 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddMultipleProjectsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">107863 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveAddMultipleProjects</span>
+                <span class="method-start">108021 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">113417 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchMultipleProjectsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">113484 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveSearchMultipleProjects</span>
+                <span class="method-start">113669 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">114279 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RemoveMultipleProjectsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">114350 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveRemoveMultipleProjects</span>
+                <span class="method-start">114512 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">119724 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RemoveUserFromProjectTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">119724 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveRemoveUserFromProject</span>
+                <span class="method-start">120551 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">126298 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RemoveTasksTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">126365 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveRemoveTasks</span>
+                <span class="method-start">126557 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">127918 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RemoveTasklistTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">127988 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveRemoveTasklist</span>
+                <span class="method-start">128152 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">129178 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RemoveMilestoneTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">129244 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveRemoveMilestone</span>
+                <span class="method-start">129402 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">132000 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RemoveRoleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">132066 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveRemoveRole</span>
+                <span class="method-start">132240 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">134183 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RemoveUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">134252 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveRemoveUser</span>
+                <span class="method-start">134407 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">139911 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RemoveProjectTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000, 4445, 127.0.0.1)</span>
+                <span class="method-start">139983 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCollabtiveRemoveProject</span>
+                <span class="method-start">140145 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">140939 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

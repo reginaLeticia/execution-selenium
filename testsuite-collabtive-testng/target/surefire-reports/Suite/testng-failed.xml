@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="browserPort" value="4445"/>
+  <parameter name="port" value="3000"/>
+  <parameter name="host" value="127.0.0.1"/>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="tests.RemoveUserFromProjectTest">
+        <methods>
+          <include name="testCollabtiveRemoveUserFromProject"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.RemoveUserFromProjectTest -->
+      <class name="tests.CloseTasksProjectPercentageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testCollabtiveCloseTasksProjectPercentage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.CloseTasksProjectPercentageTest -->
+      <class name="tests.OpenTasksTest">
+        <methods>
+          <include name="testCollabtiveOpenTasks"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.OpenTasksTest -->
+      <class name="tests.SearchProjectTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testCollabtiveSearchProject" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.SearchProjectTest -->
+      <class name="tests.AddAndRemoveLateMilestoneTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testCollabtiveAddAndRemoveLateMilestone"/>
+        </methods>
+      </class> <!-- tests.AddAndRemoveLateMilestoneTest -->
+      <class name="tests.RemoveMultipleProjectsTest">
+        <methods>
+          <include name="testCollabtiveRemoveMultipleProjects"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.RemoveMultipleProjectsTest -->
+      <class name="tests.SearchClosedProjectTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testCollabtiveSearchClosedProject" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.SearchClosedProjectTest -->
+      <class name="tests.CloseMilestoneTest">
+        <methods>
+          <include name="testCollabtiveCloseMilestone"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.CloseMilestoneTest -->
+      <class name="tests.OpenTasksProjectPercentageTest">
+        <methods>
+          <include name="testCollabtiveOpenTasksProjectPercentage"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.OpenTasksProjectPercentageTest -->
+      <class name="tests.AddTaskDesktopPresentTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testCollabtiveAddTaskDesktopPresent"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.AddTaskDesktopPresentTest -->
+      <class name="tests.EditUserRoleTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testCollabtiveEditUserRole"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.EditUserRoleTest -->
+      <class name="tests.AssignUserToProjectTest">
+        <methods>
+          <include name="testCollabtiveAssignUserToProject" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.AssignUserToProjectTest -->
+      <class name="tests.AddUserTest">
+        <methods>
+          <include name="testCollabtiveAddUser" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.AddUserTest -->
+      <class name="tests.CloseTasklistTest">
+        <methods>
+          <include name="testCollabtiveCloseTasklist"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.CloseTasklistTest -->
+      <class name="tests.EditMilestoneTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testCollabtiveEditMilestone"/>
+        </methods>
+      </class> <!-- tests.EditMilestoneTest -->
+      <class name="tests.LoginUserTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testCollabtiveLoginUser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.LoginUserTest -->
+      <class name="tests.AddUserAlreadyPresentTest">
+        <methods>
+          <include name="testCollabtiveAddUserAlreadyPresent"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.AddUserAlreadyPresentTest -->
+      <class name="tests.OpenTasklistTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testCollabtiveOpenTasklist"/>
+        </methods>
+      </class> <!-- tests.OpenTasklistTest -->
+      <class name="tests.AddTasklistTest">
+        <methods>
+          <include name="testCollabtiveAddTasklist"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.AddTasklistTest -->
+      <class name="tests.OpenMilestoneTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testCollabtiveOpenMilestone"/>
+        </methods>
+      </class> <!-- tests.OpenMilestoneTest -->
+      <class name="tests.RemoveTasklistTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testCollabtiveRemoveTasklist"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.RemoveTasklistTest -->
+      <class name="tests.AddAndRemoveMultipleTasksTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testCollabtiveAddAndRemoveMultipleTasks"/>
+        </methods>
+      </class> <!-- tests.AddAndRemoveMultipleTasksTest -->
+      <class name="tests.AddMilestoneTest">
+        <methods>
+          <include name="testCollabtiveAddMilestone"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.AddMilestoneTest -->
+      <class name="tests.RemoveTasksTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testCollabtiveRemoveTasks"/>
+        </methods>
+      </class> <!-- tests.RemoveTasksTest -->
+      <class name="tests.RemoveTaskDesktopNotPresentTest">
+        <methods>
+          <include name="testCollabtiveRemoveTaskDesktopNotPresent"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.RemoveTaskDesktopNotPresentTest -->
+      <class name="tests.AddTasksTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testCollabtiveAddTasks"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.AddTasksTest -->
+      <class name="tests.OpenProjectTest">
+        <methods>
+          <include name="testCollabtiveOpenProject" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.OpenProjectTest -->
+      <class name="tests.RemoveMilestoneTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testCollabtiveRemoveMilestone"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.RemoveMilestoneTest -->
+      <class name="tests.CloseProjectTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testCollabtiveCloseProject" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.CloseProjectTest -->
+      <class name="tests.CloseTasksTest">
+        <methods>
+          <include name="testCollabtiveCloseTasks"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.CloseTasksTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

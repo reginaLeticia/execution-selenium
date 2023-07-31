@@ -1,0 +1,1383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="40" passed="40" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-31T15:14:56 BRT" name="Suite" finished-at="2023-07-31T15:17:17 BRT" duration-ms="141029">
+    <groups>
+    </groups>
+    <test started-at="2023-07-31T15:14:56 BRT" name="Test" finished-at="2023-07-31T15:17:17 BRT" duration-ms="141029">
+      <class name="tests.AddUserTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.AddUserTest@15761df8]" started-at="2023-07-31T15:15:24 BRT" name="setUp" finished-at="2023-07-31T15:15:24 BRT" duration-ms="129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveAddUser(java.lang.String, java.lang.String)[pri:0, instance:tests.AddUserTest@15761df8]" started-at="2023-07-31T15:15:24 BRT" name="testCollabtiveAddUser" finished-at="2023-07-31T15:15:30 BRT" duration-ms="6343" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveAddUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddUserTest@15761df8]" started-at="2023-07-31T15:15:30 BRT" name="tearDown" finished-at="2023-07-31T15:15:30 BRT" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddUserTest -->
+      <class name="tests.EditMilestoneTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.EditMilestoneTest@3745e5c6]" started-at="2023-07-31T15:15:51 BRT" name="setUp" finished-at="2023-07-31T15:15:52 BRT" duration-ms="192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveEditMilestone()[pri:0, instance:tests.EditMilestoneTest@3745e5c6]" started-at="2023-07-31T15:15:52 BRT" name="testCollabtiveEditMilestone" finished-at="2023-07-31T15:15:54 BRT" duration-ms="1972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveEditMilestone -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EditMilestoneTest@3745e5c6]" started-at="2023-07-31T15:15:54 BRT" name="tearDown" finished-at="2023-07-31T15:15:54 BRT" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.EditMilestoneTest -->
+      <class name="tests.RemoveUserFromProjectTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RemoveUserFromProjectTest@2cbb3d47]" started-at="2023-07-31T15:16:56 BRT" name="setUp" finished-at="2023-07-31T15:16:57 BRT" duration-ms="827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveRemoveUserFromProject()[pri:0, instance:tests.RemoveUserFromProjectTest@2cbb3d47]" started-at="2023-07-31T15:16:57 BRT" name="testCollabtiveRemoveUserFromProject" finished-at="2023-07-31T15:17:03 BRT" duration-ms="5747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveRemoveUserFromProject -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RemoveUserFromProjectTest@2cbb3d47]" started-at="2023-07-31T15:17:03 BRT" name="tearDown" finished-at="2023-07-31T15:17:03 BRT" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RemoveUserFromProjectTest -->
+      <class name="tests.RemoveRoleTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RemoveRoleTest@add0edd]" started-at="2023-07-31T15:17:08 BRT" name="setUp" finished-at="2023-07-31T15:17:09 BRT" duration-ms="174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveRemoveRole()[pri:0, instance:tests.RemoveRoleTest@add0edd]" started-at="2023-07-31T15:17:09 BRT" name="testCollabtiveRemoveRole" finished-at="2023-07-31T15:17:11 BRT" duration-ms="1943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveRemoveRole -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RemoveRoleTest@add0edd]" started-at="2023-07-31T15:17:11 BRT" name="tearDown" finished-at="2023-07-31T15:17:11 BRT" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RemoveRoleTest -->
+      <class name="tests.SearchClosedProjectTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SearchClosedProjectTest@2b6856dd]" started-at="2023-07-31T15:15:11 BRT" name="setUp" finished-at="2023-07-31T15:15:11 BRT" duration-ms="108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveSearchClosedProject(java.lang.String, java.lang.String)[pri:0, instance:tests.SearchClosedProjectTest@2b6856dd]" started-at="2023-07-31T15:15:11 BRT" name="testCollabtiveSearchClosedProject" finished-at="2023-07-31T15:15:13 BRT" duration-ms="1584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveSearchClosedProject -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchClosedProjectTest@2b6856dd]" started-at="2023-07-31T15:15:13 BRT" name="tearDown" finished-at="2023-07-31T15:15:13 BRT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchClosedProjectTest -->
+      <class name="tests.AddMilestoneTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.AddMilestoneTest@60611244]" started-at="2023-07-31T15:15:49 BRT" name="setUp" finished-at="2023-07-31T15:15:49 BRT" duration-ms="185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveAddMilestone()[pri:0, instance:tests.AddMilestoneTest@60611244]" started-at="2023-07-31T15:15:49 BRT" name="testCollabtiveAddMilestone" finished-at="2023-07-31T15:15:51 BRT" duration-ms="2226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveAddMilestone -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddMilestoneTest@60611244]" started-at="2023-07-31T15:15:51 BRT" name="tearDown" finished-at="2023-07-31T15:15:51 BRT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddMilestoneTest -->
+      <class name="tests.SearchMultipleProjectsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SearchMultipleProjectsTest@6e75aa0d]" started-at="2023-07-31T15:16:50 BRT" name="setUp" finished-at="2023-07-31T15:16:50 BRT" duration-ms="185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveSearchMultipleProjects()[pri:0, instance:tests.SearchMultipleProjectsTest@6e75aa0d]" started-at="2023-07-31T15:16:50 BRT" name="testCollabtiveSearchMultipleProjects" finished-at="2023-07-31T15:16:51 BRT" duration-ms="610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveSearchMultipleProjects -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchMultipleProjectsTest@6e75aa0d]" started-at="2023-07-31T15:16:51 BRT" name="tearDown" finished-at="2023-07-31T15:16:51 BRT" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchMultipleProjectsTest -->
+      <class name="tests.AddTasksTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.AddTasksTest@11dc3715]" started-at="2023-07-31T15:16:18 BRT" name="setUp" finished-at="2023-07-31T15:16:19 BRT" duration-ms="158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveAddTasks()[pri:0, instance:tests.AddTasksTest@11dc3715]" started-at="2023-07-31T15:16:19 BRT" name="testCollabtiveAddTasks" finished-at="2023-07-31T15:16:22 BRT" duration-ms="3261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveAddTasks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddTasksTest@11dc3715]" started-at="2023-07-31T15:16:22 BRT" name="tearDown" finished-at="2023-07-31T15:16:22 BRT" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddTasksTest -->
+      <class name="tests.OpenTasksProjectPercentageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.OpenTasksProjectPercentageTest@8909f18]" started-at="2023-07-31T15:16:30 BRT" name="setUp" finished-at="2023-07-31T15:16:30 BRT" duration-ms="183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveOpenTasksProjectPercentage()[pri:0, instance:tests.OpenTasksProjectPercentageTest@8909f18]" started-at="2023-07-31T15:16:30 BRT" name="testCollabtiveOpenTasksProjectPercentage" finished-at="2023-07-31T15:16:33 BRT" duration-ms="3217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveOpenTasksProjectPercentage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.OpenTasksProjectPercentageTest@8909f18]" started-at="2023-07-31T15:16:33 BRT" name="tearDown" finished-at="2023-07-31T15:16:33 BRT" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.OpenTasksProjectPercentageTest -->
+      <class name="tests.EditProjectTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.EditProjectTest@13acb0d1]" started-at="2023-07-31T15:15:04 BRT" name="setUp" finished-at="2023-07-31T15:15:04 BRT" duration-ms="136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveEditProject(java.lang.String, java.lang.String)[pri:0, instance:tests.EditProjectTest@13acb0d1]" started-at="2023-07-31T15:15:04 BRT" name="testCollabtiveEditProject" finished-at="2023-07-31T15:15:07 BRT" duration-ms="2984" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveEditProject -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EditProjectTest@13acb0d1]" started-at="2023-07-31T15:15:07 BRT" name="tearDown" finished-at="2023-07-31T15:15:07 BRT" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.EditProjectTest -->
+      <class name="tests.OpenProjectTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.OpenProjectTest@5db45159]" started-at="2023-07-31T15:15:13 BRT" name="setUp" finished-at="2023-07-31T15:15:13 BRT" duration-ms="110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveOpenProject(java.lang.String, java.lang.String)[pri:0, instance:tests.OpenProjectTest@5db45159]" started-at="2023-07-31T15:15:13 BRT" name="testCollabtiveOpenProject" finished-at="2023-07-31T15:15:15 BRT" duration-ms="1867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveOpenProject -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.OpenProjectTest@5db45159]" started-at="2023-07-31T15:15:15 BRT" name="tearDown" finished-at="2023-07-31T15:15:15 BRT" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.OpenProjectTest -->
+      <class name="tests.RemoveProjectTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RemoveProjectTest@7ea37dbf]" started-at="2023-07-31T15:17:16 BRT" name="setUp" finished-at="2023-07-31T15:17:16 BRT" duration-ms="162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveRemoveProject()[pri:0, instance:tests.RemoveProjectTest@7ea37dbf]" started-at="2023-07-31T15:17:16 BRT" name="testCollabtiveRemoveProject" finished-at="2023-07-31T15:17:17 BRT" duration-ms="793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveRemoveProject -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RemoveProjectTest@7ea37dbf]" started-at="2023-07-31T15:17:17 BRT" name="tearDown" finished-at="2023-07-31T15:17:17 BRT" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RemoveProjectTest -->
+      <class name="tests.EditRoleTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.EditRoleTest@7c417213]" started-at="2023-07-31T15:15:22 BRT" name="setUp" finished-at="2023-07-31T15:15:22 BRT" duration-ms="190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveEditRole(java.lang.String, java.lang.String)[pri:0, instance:tests.EditRoleTest@7c417213]" started-at="2023-07-31T15:15:22 BRT" name="testCollabtiveEditRole" finished-at="2023-07-31T15:15:24 BRT" duration-ms="1902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveEditRole -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EditRoleTest@7c417213]" started-at="2023-07-31T15:15:24 BRT" name="tearDown" finished-at="2023-07-31T15:15:24 BRT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.EditRoleTest -->
+      <class name="tests.AddUserEmptyValuesTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.AddUserEmptyValuesTest@1460a8c0]" started-at="2023-07-31T15:16:36 BRT" name="setUp" finished-at="2023-07-31T15:16:36 BRT" duration-ms="175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveAddUserEmptyValues()[pri:0, instance:tests.AddUserEmptyValuesTest@1460a8c0]" started-at="2023-07-31T15:16:36 BRT" name="testCollabtiveAddUserEmptyValues" finished-at="2023-07-31T15:16:38 BRT" duration-ms="2012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveAddUserEmptyValues -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddUserEmptyValuesTest@1460a8c0]" started-at="2023-07-31T15:16:38 BRT" name="tearDown" finished-at="2023-07-31T15:16:38 BRT" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddUserEmptyValuesTest -->
+      <class name="tests.RemoveMilestoneTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RemoveMilestoneTest@7ff95560]" started-at="2023-07-31T15:17:06 BRT" name="setUp" finished-at="2023-07-31T15:17:06 BRT" duration-ms="158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveRemoveMilestone()[pri:0, instance:tests.RemoveMilestoneTest@7ff95560]" started-at="2023-07-31T15:17:06 BRT" name="testCollabtiveRemoveMilestone" finished-at="2023-07-31T15:17:08 BRT" duration-ms="2597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveRemoveMilestone -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RemoveMilestoneTest@7ff95560]" started-at="2023-07-31T15:17:08 BRT" name="tearDown" finished-at="2023-07-31T15:17:08 BRT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RemoveMilestoneTest -->
+      <class name="tests.AddAndRemoveLateMilestoneTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.AddAndRemoveLateMilestoneTest@4f638935]" started-at="2023-07-31T15:16:38 BRT" name="setUp" finished-at="2023-07-31T15:16:39 BRT" duration-ms="191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveAddAndRemoveLateMilestone()[pri:0, instance:tests.AddAndRemoveLateMilestoneTest@4f638935]" started-at="2023-07-31T15:16:39 BRT" name="testCollabtiveAddAndRemoveLateMilestone" finished-at="2023-07-31T15:16:44 BRT" duration-ms="5464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveAddAndRemoveLateMilestone -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddAndRemoveLateMilestoneTest@4f638935]" started-at="2023-07-31T15:16:44 BRT" name="tearDown" finished-at="2023-07-31T15:16:44 BRT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddAndRemoveLateMilestoneTest -->
+      <class name="tests.AssignUserToProjectTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.AssignUserToProjectTest@45dd4eda]" started-at="2023-07-31T15:15:42 BRT" name="setUp" finished-at="2023-07-31T15:15:42 BRT" duration-ms="164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveAssignUserToProject(java.lang.String, java.lang.String)[pri:0, instance:tests.AssignUserToProjectTest@45dd4eda]" started-at="2023-07-31T15:15:42 BRT" name="testCollabtiveAssignUserToProject" finished-at="2023-07-31T15:15:49 BRT" duration-ms="6945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveAssignUserToProject -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AssignUserToProjectTest@45dd4eda]" started-at="2023-07-31T15:15:49 BRT" name="tearDown" finished-at="2023-07-31T15:15:49 BRT" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AssignUserToProjectTest -->
+      <class name="tests.LoginUserTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.LoginUserTest@327b636c]" started-at="2023-07-31T15:15:41 BRT" name="setUp" finished-at="2023-07-31T15:15:41 BRT" duration-ms="132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveLoginUser(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginUserTest@327b636c]" started-at="2023-07-31T15:15:41 BRT" name="testCollabtiveLoginUser" finished-at="2023-07-31T15:15:42 BRT" duration-ms="544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveLoginUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginUserTest@327b636c]" started-at="2023-07-31T15:15:42 BRT" name="tearDown" finished-at="2023-07-31T15:15:42 BRT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginUserTest -->
+      <class name="tests.SearchProjectTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SearchProjectTest@3e3047e6]" started-at="2023-07-31T15:15:07 BRT" name="setUp" finished-at="2023-07-31T15:15:08 BRT" duration-ms="104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveSearchProject(java.lang.String, java.lang.String)[pri:0, instance:tests.SearchProjectTest@3e3047e6]" started-at="2023-07-31T15:15:08 BRT" name="testCollabtiveSearchProject" finished-at="2023-07-31T15:15:09 BRT" duration-ms="1688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveSearchProject -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchProjectTest@3e3047e6]" started-at="2023-07-31T15:15:09 BRT" name="tearDown" finished-at="2023-07-31T15:15:09 BRT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchProjectTest -->
+      <class name="tests.CloseTasksTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.CloseTasksTest@69930714]" started-at="2023-07-31T15:16:22 BRT" name="setUp" finished-at="2023-07-31T15:16:22 BRT" duration-ms="163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveCloseTasks()[pri:0, instance:tests.CloseTasksTest@69930714]" started-at="2023-07-31T15:16:22 BRT" name="testCollabtiveCloseTasks" finished-at="2023-07-31T15:16:24 BRT" duration-ms="1934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveCloseTasks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CloseTasksTest@69930714]" started-at="2023-07-31T15:16:24 BRT" name="tearDown" finished-at="2023-07-31T15:16:24 BRT" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CloseTasksTest -->
+      <class name="tests.RemoveTaskDesktopNotPresentTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RemoveTaskDesktopNotPresentTest@a4102b8]" started-at="2023-07-31T15:16:17 BRT" name="setUp" finished-at="2023-07-31T15:16:17 BRT" duration-ms="161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveRemoveTaskDesktopNotPresent()[pri:0, instance:tests.RemoveTaskDesktopNotPresentTest@a4102b8]" started-at="2023-07-31T15:16:17 BRT" name="testCollabtiveRemoveTaskDesktopNotPresent" finished-at="2023-07-31T15:16:18 BRT" duration-ms="1088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveRemoveTaskDesktopNotPresent -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RemoveTaskDesktopNotPresentTest@a4102b8]" started-at="2023-07-31T15:16:18 BRT" name="tearDown" finished-at="2023-07-31T15:16:18 BRT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RemoveTaskDesktopNotPresentTest -->
+      <class name="tests.OpenTasksTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.OpenTasksTest@7a52f2a2]" started-at="2023-07-31T15:16:24 BRT" name="setUp" finished-at="2023-07-31T15:16:24 BRT" duration-ms="188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveOpenTasks()[pri:0, instance:tests.OpenTasksTest@7a52f2a2]" started-at="2023-07-31T15:16:24 BRT" name="testCollabtiveOpenTasks" finished-at="2023-07-31T15:16:27 BRT" duration-ms="2821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveOpenTasks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.OpenTasksTest@7a52f2a2]" started-at="2023-07-31T15:16:27 BRT" name="tearDown" finished-at="2023-07-31T15:16:27 BRT" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.OpenTasksTest -->
+      <class name="tests.RemoveTasklistTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RemoveTasklistTest@1198b989]" started-at="2023-07-31T15:17:04 BRT" name="setUp" finished-at="2023-07-31T15:17:04 BRT" duration-ms="164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveRemoveTasklist()[pri:0, instance:tests.RemoveTasklistTest@1198b989]" started-at="2023-07-31T15:17:04 BRT" name="testCollabtiveRemoveTasklist" finished-at="2023-07-31T15:17:06 BRT" duration-ms="1026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveRemoveTasklist -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RemoveTasklistTest@1198b989]" started-at="2023-07-31T15:17:06 BRT" name="tearDown" finished-at="2023-07-31T15:17:06 BRT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RemoveTasklistTest -->
+      <class name="tests.CloseProjectTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.CloseProjectTest@37e547da]" started-at="2023-07-31T15:15:09 BRT" name="setUp" finished-at="2023-07-31T15:15:09 BRT" duration-ms="145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveCloseProject(java.lang.String, java.lang.String)[pri:0, instance:tests.CloseProjectTest@37e547da]" started-at="2023-07-31T15:15:09 BRT" name="testCollabtiveCloseProject" finished-at="2023-07-31T15:15:11 BRT" duration-ms="1780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveCloseProject -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CloseProjectTest@37e547da]" started-at="2023-07-31T15:15:11 BRT" name="tearDown" finished-at="2023-07-31T15:15:11 BRT" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CloseProjectTest -->
+      <class name="tests.AddUserAlreadyPresentTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.AddUserAlreadyPresentTest@79ca92b9]" started-at="2023-07-31T15:16:33 BRT" name="setUp" finished-at="2023-07-31T15:16:33 BRT" duration-ms="186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveAddUserAlreadyPresent()[pri:0, instance:tests.AddUserAlreadyPresentTest@79ca92b9]" started-at="2023-07-31T15:16:33 BRT" name="testCollabtiveAddUserAlreadyPresent" finished-at="2023-07-31T15:16:36 BRT" duration-ms="2971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveAddUserAlreadyPresent -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddUserAlreadyPresentTest@79ca92b9]" started-at="2023-07-31T15:16:36 BRT" name="tearDown" finished-at="2023-07-31T15:16:36 BRT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddUserAlreadyPresentTest -->
+      <class name="tests.CloseTasksProjectPercentageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.CloseTasksProjectPercentageTest@78047b92]" started-at="2023-07-31T15:16:27 BRT" name="setUp" finished-at="2023-07-31T15:16:27 BRT" duration-ms="160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveCloseTasksProjectPercentage()[pri:0, instance:tests.CloseTasksProjectPercentageTest@78047b92]" started-at="2023-07-31T15:16:27 BRT" name="testCollabtiveCloseTasksProjectPercentage" finished-at="2023-07-31T15:16:29 BRT" duration-ms="2154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveCloseTasksProjectPercentage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CloseTasksProjectPercentageTest@78047b92]" started-at="2023-07-31T15:16:29 BRT" name="tearDown" finished-at="2023-07-31T15:16:30 BRT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CloseTasksProjectPercentageTest -->
+      <class name="tests.OpenMilestoneTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.OpenMilestoneTest@71c8becc]" started-at="2023-07-31T15:15:57 BRT" name="setUp" finished-at="2023-07-31T15:15:57 BRT" duration-ms="199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveOpenMilestone()[pri:0, instance:tests.OpenMilestoneTest@71c8becc]" started-at="2023-07-31T15:15:57 BRT" name="testCollabtiveOpenMilestone" finished-at="2023-07-31T15:15:59 BRT" duration-ms="1865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveOpenMilestone -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.OpenMilestoneTest@71c8becc]" started-at="2023-07-31T15:15:59 BRT" name="tearDown" finished-at="2023-07-31T15:15:59 BRT" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.OpenMilestoneTest -->
+      <class name="tests.AddMultipleProjectsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.AddMultipleProjectsTest@4387b79e]" started-at="2023-07-31T15:16:44 BRT" name="setUp" finished-at="2023-07-31T15:16:44 BRT" duration-ms="158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveAddMultipleProjects()[pri:0, instance:tests.AddMultipleProjectsTest@4387b79e]" started-at="2023-07-31T15:16:44 BRT" name="testCollabtiveAddMultipleProjects" finished-at="2023-07-31T15:16:50 BRT" duration-ms="5396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveAddMultipleProjects -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddMultipleProjectsTest@4387b79e]" started-at="2023-07-31T15:16:50 BRT" name="tearDown" finished-at="2023-07-31T15:16:50 BRT" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddMultipleProjectsTest -->
+      <class name="tests.EditUserRoleTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.EditUserRoleTest@6ab7a896]" started-at="2023-07-31T15:15:30 BRT" name="setUp" finished-at="2023-07-31T15:15:30 BRT" duration-ms="202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveEditUserRole()[pri:0, instance:tests.EditUserRoleTest@6ab7a896]" started-at="2023-07-31T15:15:30 BRT" name="testCollabtiveEditUserRole" finished-at="2023-07-31T15:15:41 BRT" duration-ms="10408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveEditUserRole -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EditUserRoleTest@6ab7a896]" started-at="2023-07-31T15:15:41 BRT" name="tearDown" finished-at="2023-07-31T15:15:41 BRT" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.EditUserRoleTest -->
+      <class name="tests.AddRoleTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.AddRoleTest@6107227e]" started-at="2023-07-31T15:15:15 BRT" name="setUp" finished-at="2023-07-31T15:15:15 BRT" duration-ms="193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveAddRole(java.lang.String, java.lang.String)[pri:0, instance:tests.AddRoleTest@6107227e]" started-at="2023-07-31T15:15:15 BRT" name="testCollabtiveAddRole" finished-at="2023-07-31T15:15:21 BRT" duration-ms="6170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveAddRole -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddRoleTest@6107227e]" started-at="2023-07-31T15:15:21 BRT" name="tearDown" finished-at="2023-07-31T15:15:22 BRT" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddRoleTest -->
+      <class name="tests.AddTasklistTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.AddTasklistTest@19d37183]" started-at="2023-07-31T15:15:59 BRT" name="setUp" finished-at="2023-07-31T15:15:59 BRT" duration-ms="186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveAddTasklist()[pri:0, instance:tests.AddTasklistTest@19d37183]" started-at="2023-07-31T15:15:59 BRT" name="testCollabtiveAddTasklist" finished-at="2023-07-31T15:16:04 BRT" duration-ms="5213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveAddTasklist -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddTasklistTest@19d37183]" started-at="2023-07-31T15:16:04 BRT" name="tearDown" finished-at="2023-07-31T15:16:04 BRT" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddTasklistTest -->
+      <class name="tests.RemoveMultipleProjectsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RemoveMultipleProjectsTest@7fc229ab]" started-at="2023-07-31T15:16:51 BRT" name="setUp" finished-at="2023-07-31T15:16:51 BRT" duration-ms="162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveRemoveMultipleProjects()[pri:0, instance:tests.RemoveMultipleProjectsTest@7fc229ab]" started-at="2023-07-31T15:16:51 BRT" name="testCollabtiveRemoveMultipleProjects" finished-at="2023-07-31T15:16:56 BRT" duration-ms="5212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveRemoveMultipleProjects -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RemoveMultipleProjectsTest@7fc229ab]" started-at="2023-07-31T15:16:56 BRT" name="tearDown" finished-at="2023-07-31T15:16:56 BRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RemoveMultipleProjectsTest -->
+      <class name="tests.RemoveUserTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RemoveUserTest@2aa3cd93]" started-at="2023-07-31T15:17:11 BRT" name="setUp" finished-at="2023-07-31T15:17:11 BRT" duration-ms="155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveRemoveUser()[pri:0, instance:tests.RemoveUserTest@2aa3cd93]" started-at="2023-07-31T15:17:11 BRT" name="testCollabtiveRemoveUser" finished-at="2023-07-31T15:17:16 BRT" duration-ms="5504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveRemoveUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RemoveUserTest@2aa3cd93]" started-at="2023-07-31T15:17:16 BRT" name="tearDown" finished-at="2023-07-31T15:17:16 BRT" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RemoveUserTest -->
+      <class name="tests.CloseMilestoneTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.CloseMilestoneTest@5e4c8041]" started-at="2023-07-31T15:15:54 BRT" name="setUp" finished-at="2023-07-31T15:15:54 BRT" duration-ms="185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveCloseMilestone()[pri:0, instance:tests.CloseMilestoneTest@5e4c8041]" started-at="2023-07-31T15:15:54 BRT" name="testCollabtiveCloseMilestone" finished-at="2023-07-31T15:15:57 BRT" duration-ms="2888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveCloseMilestone -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CloseMilestoneTest@5e4c8041]" started-at="2023-07-31T15:15:57 BRT" name="tearDown" finished-at="2023-07-31T15:15:57 BRT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CloseMilestoneTest -->
+      <class name="tests.AddTaskDesktopPresentTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.AddTaskDesktopPresentTest@d83da2e]" started-at="2023-07-31T15:16:15 BRT" name="setUp" finished-at="2023-07-31T15:16:15 BRT" duration-ms="167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveAddTaskDesktopPresent()[pri:0, instance:tests.AddTaskDesktopPresentTest@d83da2e]" started-at="2023-07-31T15:16:15 BRT" name="testCollabtiveAddTaskDesktopPresent" finished-at="2023-07-31T15:16:17 BRT" duration-ms="2259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveAddTaskDesktopPresent -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddTaskDesktopPresentTest@d83da2e]" started-at="2023-07-31T15:16:17 BRT" name="tearDown" finished-at="2023-07-31T15:16:17 BRT" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddTaskDesktopPresentTest -->
+      <class name="tests.AddAndRemoveMultipleTasksTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.AddAndRemoveMultipleTasksTest@fdefd3f]" started-at="2023-07-31T15:16:08 BRT" name="setUp" finished-at="2023-07-31T15:16:08 BRT" duration-ms="160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveAddAndRemoveMultipleTasks()[pri:0, instance:tests.AddAndRemoveMultipleTasksTest@fdefd3f]" started-at="2023-07-31T15:16:08 BRT" name="testCollabtiveAddAndRemoveMultipleTasks" finished-at="2023-07-31T15:16:15 BRT" duration-ms="6723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveAddAndRemoveMultipleTasks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddAndRemoveMultipleTasksTest@fdefd3f]" started-at="2023-07-31T15:16:15 BRT" name="tearDown" finished-at="2023-07-31T15:16:15 BRT" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddAndRemoveMultipleTasksTest -->
+      <class name="tests.OpenTasklistTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.OpenTasklistTest@3bd40a57]" started-at="2023-07-31T15:16:07 BRT" name="setUp" finished-at="2023-07-31T15:16:07 BRT" duration-ms="162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveOpenTasklist()[pri:0, instance:tests.OpenTasklistTest@3bd40a57]" started-at="2023-07-31T15:16:07 BRT" name="testCollabtiveOpenTasklist" finished-at="2023-07-31T15:16:08 BRT" duration-ms="769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveOpenTasklist -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.OpenTasklistTest@3bd40a57]" started-at="2023-07-31T15:16:08 BRT" name="tearDown" finished-at="2023-07-31T15:16:08 BRT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.OpenTasklistTest -->
+      <class name="tests.RemoveTasksTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.RemoveTasksTest@527e5409]" started-at="2023-07-31T15:17:03 BRT" name="setUp" finished-at="2023-07-31T15:17:03 BRT" duration-ms="192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveRemoveTasks()[pri:0, instance:tests.RemoveTasksTest@527e5409]" started-at="2023-07-31T15:17:03 BRT" name="testCollabtiveRemoveTasks" finished-at="2023-07-31T15:17:04 BRT" duration-ms="1361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveRemoveTasks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RemoveTasksTest@527e5409]" started-at="2023-07-31T15:17:04 BRT" name="tearDown" finished-at="2023-07-31T15:17:04 BRT" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RemoveTasksTest -->
+      <class name="tests.CloseTasklistTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.CloseTasklistTest@1a0dcaa]" started-at="2023-07-31T15:16:04 BRT" name="setUp" finished-at="2023-07-31T15:16:05 BRT" duration-ms="188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveCloseTasklist()[pri:0, instance:tests.CloseTasklistTest@1a0dcaa]" started-at="2023-07-31T15:16:05 BRT" name="testCollabtiveCloseTasklist" finished-at="2023-07-31T15:16:07 BRT" duration-ms="2064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveCloseTasklist -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CloseTasklistTest@1a0dcaa]" started-at="2023-07-31T15:16:07 BRT" name="tearDown" finished-at="2023-07-31T15:16:07 BRT" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CloseTasklistTest -->
+      <class name="tests.AddProjectTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.AddProjectTest@b62fe6d]" started-at="2023-07-31T15:14:56 BRT" name="setUp" finished-at="2023-07-31T15:14:57 BRT" duration-ms="538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4445]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCollabtiveAddProject(java.lang.String, java.lang.String)[pri:0, instance:tests.AddProjectTest@b62fe6d]" started-at="2023-07-31T15:14:57 BRT" name="testCollabtiveAddProject" finished-at="2023-07-31T15:15:04 BRT" duration-ms="7335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[127.0.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollabtiveAddProject -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddProjectTest@b62fe6d]" started-at="2023-07-31T15:15:04 BRT" name="tearDown" finished-at="2023-07-31T15:15:04 BRT" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddProjectTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
